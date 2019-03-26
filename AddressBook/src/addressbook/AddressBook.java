@@ -21,6 +21,9 @@ public class AddressBook extends Application {
         
         stage.setTitle(bundle.getString("application.name"));
         stage.setScene(scene);
+
+        //stage.setMinWidth(300);
+
         stage.show();
     }
 
