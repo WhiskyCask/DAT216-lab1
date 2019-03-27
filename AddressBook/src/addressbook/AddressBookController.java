@@ -102,6 +102,11 @@ public class AddressBookController implements Initializable {
         presenter.removeCurrentContact();
     }
 
+    @FXML
+    protected void textFieldActionPerformed (ActionEvent event) {
+        presenter.textFieldActionPerformed(event);
+    }
+
     private class TextFieldListener implements ChangeListener<Boolean> {
 
         private TextField textField;
