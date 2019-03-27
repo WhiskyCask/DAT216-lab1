@@ -88,7 +88,7 @@
                   <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="230.0" prefWidth="80.0" text="Post Code: " AnchorPane.leftAnchor="20.0" />
                   <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="270.0" prefWidth="80.0" text="City: " AnchorPane.leftAnchor="20.0" />
                   <TextField fx:id="firstNameTextField" layoutX="100.0" layoutY="25.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
-                  <TextField fx:id="LastNameTextField" layoutX="100.0" layoutY="65.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
+                  <TextField fx:id="lastNameTextField" layoutX="100.0" layoutY="65.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
                   <TextField fx:id="phoneTextField" layoutX="100.0" layoutY="105.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
                   <TextField fx:id="emailTextField" layoutX="100.0" layoutY="145.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
                   <TextField fx:id="addressTextField" layoutX="100.0" layoutY="185.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />

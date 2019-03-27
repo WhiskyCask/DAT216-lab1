@@ -63,7 +63,7 @@ public class AddressBookController implements Initializable {
         });
 
         firstNameTextField.focusedProperty().addListener(new TextFieldListener(firstNameTextField));
-        //lastNameTextField.focusedProperty().addListener(new TextFieldListener(lastNameTextField));
+        lastNameTextField.focusedProperty().addListener(new TextFieldListener(lastNameTextField));
         phoneTextField.focusedProperty().addListener(new TextFieldListener(phoneTextField));
         emailTextField.focusedProperty().addListener(new TextFieldListener(emailTextField));
         addressTextField.focusedProperty().addListener(new TextFieldListener(addressTextField));
