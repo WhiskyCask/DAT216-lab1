@@ -20,7 +20,7 @@
         <menus>
           <Menu mnemonicParsing="false" text="%fileMenu.text">
             <items>
-                  <MenuItem mnemonicParsing="false" text="New Contact">
+                  <MenuItem mnemonicParsing="false" onAction="#newButtonActionPerformed" text="New Contact">
                      <graphic>
                         <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -29,7 +29,7 @@
                         </ImageView>
                      </graphic>
                   </MenuItem>
-                  <MenuItem mnemonicParsing="false" text="Delete Contact">
+                  <MenuItem mnemonicParsing="false" onAction="#deleteButtonActionPerformed" text="Delete Contact">
                      <graphic>
                         <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -87,13 +87,13 @@
                   <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="190.0" prefWidth="80.0" text="Address: " AnchorPane.leftAnchor="20.0" />
                   <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="230.0" prefWidth="80.0" text="Post Code: " AnchorPane.leftAnchor="20.0" />
                   <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="270.0" prefWidth="80.0" text="City: " AnchorPane.leftAnchor="20.0" />
-                  <TextField fx:id="firstNameTextField" layoutX="100.0" layoutY="25.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
-                  <TextField fx:id="lastNameTextField" layoutX="100.0" layoutY="65.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
-                  <TextField fx:id="phoneTextField" layoutX="100.0" layoutY="105.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
-                  <TextField fx:id="emailTextField" layoutX="100.0" layoutY="145.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
-                  <TextField fx:id="addressTextField" layoutX="100.0" layoutY="185.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
-                  <TextField fx:id="postCodeTextField" layoutX="100.0" layoutY="225.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
-                  <TextField fx:id="cityTextField" layoutX="100.0" layoutY="265.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
+                  <TextField fx:id="firstNameTextField" layoutX="100.0" layoutY="25.0" onInputMethodTextChanged="#textFieldActionPerformed" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
+                  <TextField fx:id="lastNameTextField" layoutX="100.0" layoutY="65.0" onInputMethodTextChanged="#textFieldActionPerformed" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
+                  <TextField fx:id="phoneTextField" layoutX="100.0" layoutY="105.0" onInputMethodTextChanged="#textFieldActionPerformed" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
+                  <TextField fx:id="emailTextField" layoutX="100.0" layoutY="145.0" onInputMethodTextChanged="#textFieldActionPerformed" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
+                  <TextField fx:id="addressTextField" layoutX="100.0" layoutY="185.0" onInputMethodTextChanged="#textFieldActionPerformed" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
+                  <TextField fx:id="postCodeTextField" layoutX="100.0" layoutY="225.0" onInputMethodTextChanged="#textFieldActionPerformed" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
+                  <TextField fx:id="cityTextField" layoutX="100.0" layoutY="265.0" onInputMethodTextChanged="#textFieldActionPerformed" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="20.0" />
                </children>
             </AnchorPane>
         </items>
