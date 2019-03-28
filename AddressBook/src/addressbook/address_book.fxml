@@ -71,7 +71,7 @@
             </Button>
         </items>
       </ToolBar>
-      <SplitPane dividerPositions="0.29797979797979796" layoutY="75.0" prefHeight="325.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <SplitPane dividerPositions="0.29797979797979796" layoutY="75.0" prefHeight="325.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="76.0">
         <items>
           <AnchorPane minHeight="323.0" minWidth="174.0" prefHeight="252.0" prefWidth="133.0">
                <children>
